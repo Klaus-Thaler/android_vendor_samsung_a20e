@@ -21,13 +21,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a20e/proprietary/vendor/bin/argosd:$(TARGET_COPY_OUT_VENDOR)/bin/argosd \
     vendor/samsung/a20e/proprietary/vendor/bin/cass:$(TARGET_COPY_OUT_VENDOR)/bin/cass \
     vendor/samsung/a20e/proprietary/vendor/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
-    vendor/samsung/a20e/proprietary/vendor/bin/dumpsys:$(TARGET_COPY_OUT_VENDOR)/bin/dumpsys \
     vendor/samsung/a20e/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service \
     vendor/samsung/a20e/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
     vendor/samsung/a20e/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service \
     vendor/samsung/a20e/proprietary/vendor/bin/hw/android.hardware.health@2.0-service.samsung:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.0-service.samsung \
     vendor/samsung/a20e/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service \
-    vendor/samsung/a20e/proprietary/vendor/bin/hw/android.hardware.power@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.power@1.0-service \
     vendor/samsung/a20e/proprietary/vendor/bin/hw/android.hardware.thermal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@1.0-service \
     vendor/samsung/a20e/proprietary/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
     vendor/samsung/a20e/proprietary/vendor/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader \
@@ -38,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a20e/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss@2.0-service \
     vendor/samsung/a20e/proprietary/vendor/bin/hw/vendor.samsung.hardware.light@3.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.light@3.0-service \
     vendor/samsung/a20e/proprietary/vendor/bin/hw/vendor.samsung.hardware.miscpower@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.miscpower@2.0-service \
-    vendor/samsung/a20e/proprietary/vendor/bin/hw/vendor.samsung.hardware.security.drk@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.security.drk@2.0-service \
     vendor/samsung/a20e/proprietary/vendor/bin/hw/vendor.samsung.hardware.tlc.atn@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.tlc.atn@1.0-service \
     vendor/samsung/a20e/proprietary/vendor/bin/hw/vendor.samsung.hardware.tlc.iccc@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.tlc.iccc@1.0-service \
     vendor/samsung/a20e/proprietary/vendor/bin/hw/vendor.samsung.hardware.tlc.payment@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.tlc.payment@1.0-service \
@@ -48,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a20e/proprietary/vendor/bin/hw/vendor.samsung.hardware.wifi@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.wifi@2.0-service \
     vendor/samsung/a20e/proprietary/vendor/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service \
     vendor/samsung/a20e/proprietary/vendor/bin/hw/vendor.samsung_slsi.hardware.configstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung_slsi.hardware.configstore@1.0-service \
-    vendor/samsung/a20e/proprietary/vendor/bin/iof_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/iof_vendor \
     vendor/samsung/a20e/proprietary/vendor/bin/main_abox:$(TARGET_COPY_OUT_VENDOR)/bin/main_abox \
     vendor/samsung/a20e/proprietary/vendor/bin/moredump:$(TARGET_COPY_OUT_VENDOR)/bin/moredump \
     vendor/samsung/a20e/proprietary/vendor/bin/moredump.bin:$(TARGET_COPY_OUT_VENDOR)/bin/moredump.bin \
@@ -62,9 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a20e/proprietary/vendor/bin/taadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/taadaemon \
     vendor/samsung/a20e/proprietary/vendor/bin/tzdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/tzdaemon \
     vendor/samsung/a20e/proprietary/vendor/bin/tzts_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/tzts_daemon \
-    vendor/samsung/a20e/proprietary/vendor/bin/vaultkeeperd:$(TARGET_COPY_OUT_VENDOR)/bin/vaultkeeperd \
-    vendor/samsung/a20e/proprietary/vendor/bin/vendor.samsung.hardware.security.proca@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.proca@2.0-service \
-    vendor/samsung/a20e/proprietary/vendor/bin/vendor.samsung.hardware.security.vaultkeeper@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.vaultkeeper@1.0-service \
     vendor/samsung/a20e/proprietary/vendor/bin/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service \
     vendor/samsung/a20e/proprietary/vendor/bin/vendor.samsung.hardware.security.wsm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.hardware.security.wsm@1.0-service \
     vendor/samsung/a20e/proprietary/vendor/bin/wlbtd:$(TARGET_COPY_OUT_VENDOR)/bin/wlbtd \
@@ -93,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a20e/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc \
     vendor/samsung/a20e/proprietary/vendor/etc/init/android.hardware.health@2.0-service.samsung.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.0-service.samsung.rc \
     vendor/samsung/a20e/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.rc \
-    vendor/samsung/a20e/proprietary/vendor/etc/init/android.hardware.power@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.power@1.0-service.rc \
     vendor/samsung/a20e/proprietary/vendor/etc/init/android.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@1.0-service.rc \
     vendor/samsung/a20e/proprietary/vendor/etc/init/icd_over_five_vendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/icd_over_five_vendor.rc \
     vendor/samsung/a20e/proprietary/vendor/etc/init/init.baseband.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.baseband.rc \
@@ -108,13 +100,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a20e/proprietary/vendor/etc/init/secure_storage_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/secure_storage_daemon.rc \
     vendor/samsung/a20e/proprietary/vendor/etc/init/snap_utility.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/snap_utility.rc \
     vendor/samsung/a20e/proprietary/vendor/etc/init/teegris_v3.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/teegris_v3.rc \
-    vendor/samsung/a20e/proprietary/vendor/etc/init/vaultkeeper_common.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vaultkeeper_common.rc \
     vendor/samsung/a20e/proprietary/vendor/etc/init/vendor.samsung.hardware.base@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.base@1.0-service.rc \
     vendor/samsung/a20e/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@3.0-service.rc \
     vendor/samsung/a20e/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc \
     vendor/samsung/a20e/proprietary/vendor/etc/init/vendor.samsung.hardware.light@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.light@3.0-service.rc \
     vendor/samsung/a20e/proprietary/vendor/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@2.0-service.rc \
-    vendor/samsung/a20e/proprietary/vendor/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.drk@2.0-service.rc \
     vendor/samsung/a20e/proprietary/vendor/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.security.widevine.keyprovisioning@1.0-service.rc \
     vendor/samsung/a20e/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.atn@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.atn@1.0-service.rc \
     vendor/samsung/a20e/proprietary/vendor/etc/init/vendor.samsung.hardware.tlc.iccc@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.tlc.iccc@1.0-service.rc \
@@ -172,27 +162,20 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a20e/proprietary/vendor/firmware/setfile_3l6.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3l6.bin \
     vendor/samsung/a20e/proprietary/vendor/firmware/setfile_4ha_front.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_4ha_front.bin \
     vendor/samsung/a20e/proprietary/vendor/firmware/setfile_sr556.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_sr556.bin \
-    vendor/samsung/a20e/proprietary/vendor/lib/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common-util.so \
-    vendor/samsung/a20e/proprietary/vendor/lib/android.hardware.audio.common@2.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@2.0-util.so \
-    vendor/samsung/a20e/proprietary/vendor/lib/android.hardware.audio.common@4.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@4.0-util.so \
     vendor/samsung/a20e/proprietary/vendor/lib/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-legacy.so \
     vendor/samsung/a20e/proprietary/vendor/lib/android.hardware.camera.provider@2.5-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.5-legacy.so \
     vendor/samsung/a20e/proprietary/vendor/lib/android.hardware.gatekeeper@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.gatekeeper@1.0-impl.so \
     vendor/samsung/a20e/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/samsung/a20e/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl.so \
-    vendor/samsung/a20e/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@2.0-impl.so \
-    vendor/samsung/a20e/proprietary/vendor/lib/hw/android.hardware.power@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.power@1.0-impl.so \
     vendor/samsung/a20e/proprietary/vendor/lib/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@1.0-impl.so \
     vendor/samsung/a20e/proprietary/vendor/lib/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.default.so \
     vendor/samsung/a20e/proprietary/vendor/lib/hw/audio.primary.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.exynos7884B.so \
-    vendor/samsung/a20e/proprietary/vendor/lib/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.default.so \
     vendor/samsung/a20e/proprietary/vendor/lib/hw/camera.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.exynos7884B.so \
     vendor/samsung/a20e/proprietary/vendor/lib/hw/gatekeeper.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.exynos7884B.so \
     vendor/samsung/a20e/proprietary/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
     vendor/samsung/a20e/proprietary/vendor/lib/hw/gralloc.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.exynos7884B.so \
     vendor/samsung/a20e/proprietary/vendor/lib/hw/hwcomposer.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos7884B.so \
     vendor/samsung/a20e/proprietary/vendor/lib/hw/memtrack.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.exynos7884B.so \
-    vendor/samsung/a20e/proprietary/vendor/lib/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.default.so \
     vendor/samsung/a20e/proprietary/vendor/lib/hw/power.universal7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.universal7884B.so \
     vendor/samsung/a20e/proprietary/vendor/lib/hw/sensors.universal7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal7884B.so \
     vendor/samsung/a20e/proprietary/vendor/lib/hw/thermal.universal7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.universal7884B.so \
@@ -317,7 +300,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a20e/proprietary/vendor/lib/libswldc_capture_core.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswldc_capture_core.camera.samsung.so \
     vendor/samsung/a20e/proprietary/vendor/lib/libsxqk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsxqk.so \
     vendor/samsung/a20e/proprietary/vendor/lib/libteecl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteecl.so \
-    vendor/samsung/a20e/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
     vendor/samsung/a20e/proprietary/vendor/lib/libucm_tlc_comm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libucm_tlc_comm.so \
     vendor/samsung/a20e/proprietary/vendor/lib/libucm_tlc_direct_comm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libucm_tlc_direct_comm.so \
     vendor/samsung/a20e/proprietary/vendor/lib/libucm_tlc_tz_esecomm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libucm_tlc_tz_esecomm.so \
@@ -372,24 +354,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a20e/proprietary/vendor/lib/vndk/libstagefright_omx_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_omx_utils.so \
     vendor/samsung/a20e/proprietary/vendor/lib/vndk/libstagefright_xmlparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_xmlparser.so \
     vendor/samsung/a20e/proprietary/vendor/lib/vndk/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libtinyalsa.so \
-    vendor/samsung/a20e/proprietary/vendor/lib64/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common-util.so \
-    vendor/samsung/a20e/proprietary/vendor/lib64/android.hardware.audio.common@2.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@2.0-util.so \
-    vendor/samsung/a20e/proprietary/vendor/lib64/android.hardware.audio.common@4.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@4.0-util.so \
     vendor/samsung/a20e/proprietary/vendor/lib64/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4-legacy.so \
     vendor/samsung/a20e/proprietary/vendor/lib64/android.hardware.gatekeeper@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gatekeeper@1.0-impl.so \
     vendor/samsung/a20e/proprietary/vendor/lib64/hw/android.hardware.gnss@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.0-impl.so \
-    vendor/samsung/a20e/proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so \
     vendor/samsung/a20e/proprietary/vendor/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so \
-    vendor/samsung/a20e/proprietary/vendor/lib64/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.default.so \
     vendor/samsung/a20e/proprietary/vendor/lib64/hw/audio.sec_primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.sec_primary.default.so \
-    vendor/samsung/a20e/proprietary/vendor/lib64/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.default.so \
     vendor/samsung/a20e/proprietary/vendor/lib64/hw/camera.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.exynos7884B.so \
     vendor/samsung/a20e/proprietary/vendor/lib64/hw/gatekeeper.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.exynos7884B.so \
     vendor/samsung/a20e/proprietary/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
     vendor/samsung/a20e/proprietary/vendor/lib64/hw/gralloc.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.exynos7884B.so \
     vendor/samsung/a20e/proprietary/vendor/lib64/hw/hwcomposer.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos7884B.so \
     vendor/samsung/a20e/proprietary/vendor/lib64/hw/memtrack.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.exynos7884B.so \
-    vendor/samsung/a20e/proprietary/vendor/lib64/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.default.so \
     vendor/samsung/a20e/proprietary/vendor/lib64/hw/power.universal7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.universal7884B.so \
     vendor/samsung/a20e/proprietary/vendor/lib64/hw/sensors.universal7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.universal7884B.so \
     vendor/samsung/a20e/proprietary/vendor/lib64/hw/thermal.universal7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.universal7884B.so \
